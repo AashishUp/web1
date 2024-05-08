@@ -1,0 +1,253 @@
+<html>
+
+<head>
+    <title>Aashish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(138, 33, 224);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(79, 33, 122);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(215, 142, 215);
+            font-size: 1.03rem;
+        }
+
+        .left {
+            font-size: 1.6rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px;
+        }
+
+        .firstsection div {
+            width: 80%;
+        }
+
+        .leftsection {
+            font-size: 4rem;
+            margin: 60px 0;
+
+        }
+
+        .leftsection .btn {
+            padding: 20px;
+            background: none;
+            color: white;
+            font-size: large;
+            border: 3px solid;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: #1c2c5c;
+        }
+
+        .leftsection .btn:hover {
+            background-color: rgb(31, 29, 173);
+        }
+
+        .rightsection img {
+            margin: 0 30px;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            padding: 80px;
+            height: 70vh;
+        }
+
+        .textgray {
+            color: rgb(185, 167, 167);
+        }
+
+        /* main hr{
+                background: rgb(167, 142, 193);
+                width: 90vw;
+                height: 1px;
+                margin: 30px 70px;
+               } */
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 50px 60px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            background: white;
+            height: 50px;
+            width: 1px;
+            margin: 0px 150px;
+        }
+
+        .titl {
+            position: relative;
+            top: 20px;
+            width: 150px;
+        }
+
+        .secondsection .subtitle {
+            position: relative;
+            top: 30px;
+            font-size: small;
+            color: rgb(221, 178, 178);
+        }
+
+        footer {
+            background-color: rgb(55, 11, 93);
+            height: 300px;
+        }
+
+        .footer {
+            text-align: left;
+            margin: 12px 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .ffirst {
+            padding: 30px;
+        }
+
+        .footer li {
+            margin: 20px;
+            list-style: none;
+            cursor: pointer;
+        }
+
+        footer ul li:hover {
+            color: rgb(215, 142, 215);
+        }
+
+        .ftext {
+            text-align: center;
+            color: gray;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Aashish's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Interests</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                This is <span style="color: rgb(20, 225, 157);">Aashish</span>.<br>
+                And I am learning.
+               <a href = "file:///C:/Users/user/Desktop/aashishcvv.pdf"> <button class="btn">Download CV</button></a>
+                <a href = "https://github.com/AashishUp"><button class="btn">Visit GitHub</button></a>
+            </div>
+            <div class="rightsection">
+                <img src="pngegg.png" style="width: 40%;">
+            </div>
+        </section>
+        <br><br>
+        <!-- <hr> -->
+        <div class="secondsection">
+            <span class="textgray"> What I am trying and doing</span>
+            <h1 style="margin: auto; max-width: 90vw;">Past Experiences</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="imag" style="left: -10; top: -32; width: 30px; position: relative;" src="deve.png"
+                        alt="">
+                    <div class="titl">HTML/CSS Learner(2023-Present)</div>
+                    <div class="subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imag" style="left: -10; top: -32; width: 30px; position: relative;" src="deve.png"
+                        alt="">
+                    <div class="titl">HTML/CSS Learner(2023-Present)</div>
+                    <div class="subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                </div>
+                <div class="vertical"> <img class="imag" style="left: -10; top: -32; width: 30px; position: relative;"
+                        src="deve.png" alt="">
+                    <div class="titl">HTML/CSS Learner(2023-Present)</div>
+                    <div class="subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imag" style="left: -10; top: -32; width: 30px; position: relative;" src="deve.png"
+                        alt="">
+                    <div class="titl">HTML/CSS Learner(2023-Present)</div>
+                    <div class="subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                </div>
+            </div>
+            <br>
+    </main>
+    <div>
+        <footer>
+            <div class="footer">
+                <div class="ffirst">
+                    <h3>Aashish's first Portfolio Website</h3>
+                </div>
+                <div class="fsecond">
+                    <ul>
+                        <li>Home</li>
+                        <li>Services</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ftext">Copyright &#169; aashish.com | All rights reserved</div>
+        </footer>
+    </div>
+</body>
+
+</html>
